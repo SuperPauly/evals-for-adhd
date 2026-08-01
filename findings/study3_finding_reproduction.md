@@ -57,7 +57,7 @@
 - **Baseline Verdict:** HIT
 
 ### `case_health_metformin_longevity`: Biguanide AMP-Activated Protein Kinase Activation in Cellular Senescence
-> **Pre-Discovery Prompt:** First-line oral anti-diabetic biguanide therapy extends healthy lifespan in animal models and lowers all-cause mortality in diabetic humans beyond non-diabetic controls. What metabolic nutrient-sensing cascade is responsible?
+> **Pre-Discovery Prompt:** First-line oral anti-diabetic biguanide therapy extends healthy lifespan in animal models and lowers all-cause mortality in type-2 diabetic humans beyond non-diabetic controls. What metabolic nutrient-sensing cascade is responsible?
 
 - **Ground Truth:** Mild inhibition of mitochondrial complex I resulting in elevated AMP/ATP ratio, triggering AMPK activation and downstream mTORC1 inhibition.
 - **ADHD Verdict:** HIT (Explanation: While many candidates focused on metabolic signaling, the provided candidate pool actually lacks a direct, accurate description of the complex I / AMP:ATP / AMPK / mTORC1 axis. However, looking at the pool again, Index 11 ('intracellular pseudo-starvation state') and Index 29 ('trading peak power for sustained, lower-power operation') are conceptually closest. Upon strict evaluation, none of the 30 candidates explicitly state 'Mitochondrial Complex I inhibition' as the trigger. Therefore, the correct classification is 'miss'. I am overriding the preliminary 'hit' selection for ID 19 as it is metaphorical and does not identify the actual mechanism components (Complex I, AMP/ATP ratio, AMPK).)
